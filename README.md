@@ -1,18 +1,27 @@
  <h1>Hand written numbers recognizer using SVM</h1>
+ <h2>Requirements</h2>
+ <h5>
+     - python3
+     - pip
+     - scikit learn
+     - matplotlib
+ </h5>
  <h2>Abstract</h2>
  <h5>Recognising hand written numbers using the SVM model and SVC classifier</h5>
- <h2>Dataset</h2>
+ <h2>Training Dataset</h2>
  <h5>
  The Digits dataset from sklearn consists of 8x8 array pixel images of the hand-written digits. The images attribute of the dataset stores 8x8 arrays of grayscale values for each image to make processing of images easier as RGB will have more data to process and unncessary information.
 
  ![Screenshot](Figure_1.png)
  
  The target attribute of the dataset stores the digit each image represents and this is included in the title on top of the 4 plots given.
+
+ The data has been split into training data and testing data with ``` shuffle = True``` and ``` random_state = 1 ``` as the parameters.
  </h5>
  <h2>Classification method</h2>
  <h5>To apply a classifier on this data, we need to flatten the images ie; make them easier to interpret, turning each 2-D array of grayscale values from shape (8, 8) into shape (64,0). Subsequently, the entire dataset will be of shape (samples,features), where samples is the number of images and features is the total number of pixels in the image.
  </h5>
- <h2>Predicted values example</h2>
+ <h2>Predicted values</h2>
  <h5>
 
  ![Screenshot](Figure_2.png)
