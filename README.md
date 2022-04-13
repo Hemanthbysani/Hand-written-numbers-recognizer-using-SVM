@@ -1,9 +1,10 @@
  <h1>Hand written numbers recognizer using SVM</h1>
  <h2>Requirements</h2>
-     * python3
-     * pip
-     * scikit learn
-     * matplotlib
+ Markup : 
+      * python3
+      * pip
+      * scikit learn
+      * matplotlib
  <h2>Abstract</h2>
  <h5>Recognising hand written numbers using the SVM model and SVC classifier</h5>
  <h2>Training Dataset</h2>
